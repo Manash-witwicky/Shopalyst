@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopalyst</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="./styles/index.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./scripts/index.js"></script>
+</head>
+<body>
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<a class="navbar-brand" href="#">Shop on Shopalyst</a>
+    			</div>
+  			</div>
+		</nav>
+		
+		<div class="container container_cls">
+			<!--   this search bar   -->
+			<div class="row">
+				<div class="form-group">
+  					<input type="text" class="col-md-10 search_bar"  id="search" placeholder="Search">
+  					<button type="button" class="btn btn-primary .col-md-2" id="search_btn" onclick="search();">Primary</button>
+				</div>
+			</div>
+
+			<div class="filters_cls" id="filters">
+				<div class="filters_list_cls" >sfsdfsdf</div>
+				<div class="filters_list_cls" >sfsdfsdf</div>
+			</div>
+
+			<!-- pagination -->
+			<div class="row" id="pagination">
+				<button class="pagination_btn" onclick="previous();" id="prv_btn">
+					<i class="fas fa-angle-left fa-2x"></i>
+				</button>
+				<span class="pagination_text_cls" id="pagination_text" ></span>
+				<button class="pagination_btn" onclick="next();" id="next_btn">
+					<i class="fas fa-angle-right fa-2x"></i>				
+				</button>
+			</div>
+
+
+			<!-- <img src="https://rukminim1.flixcart.com/image/200/200/pendrive/utility-pendrive/n/p/y/sandisk-ixpand-original-imae7h6cxfhrugrv.jpeg?q=90" alt="no image" onclick="productClick();" > -->
+
+			<!--  this is result display   -->
+			<div class="row" id="results">
+				
+			</div>
+		</div>
+</body>
+</html>
